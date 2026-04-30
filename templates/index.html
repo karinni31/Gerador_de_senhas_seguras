@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Gerador de Senhas</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+<h2>🔐 Gerador de Senhas</h2>
+
+<input type="text" id="senha" readonly placeholder="Sua senha">
+
+<!-- Slider -->
+<div class="slider-box">
+<label>Tamanho: <span id="valor">12</span></label>
+<input type="range" id="tamanho" min="6" max="30" value="12">
+</div>
+
+<!-- Opções -->
+<div class="options">
+<label><input type="checkbox" id="minusculas" checked> abc Letras minúsculas</label>
+<label><input type="checkbox" id="maiusculas" checked> ABC Letras maiúsculas</label>
+<label><input type="checkbox" id="numeros" checked> 123 Números</label>
+<label><input type="checkbox" id="especiais" checked> #@! Símbolos</label>
+</div>
+
+<button onclick="gerarSenha()">✨ Gerar Senha</button>
+<button class="copiar" onclick="copiarSenha()">📋 Copiar Senha</button>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
