@@ -55,15 +55,22 @@ gerador_senhas/
 │ 
 ├── app.py 
 ├── requirements.txt 
-├── test_senha.py │ 
-├
-├── static/ │   
-    ├── css/ │   
-    ├── js/ │   
-    └── img/ │       
-        ├── background.jpg │       
-        ├── preview.png │       
-        └── preview2.png │ 
+├── test_senha.py 
+│ 
+├── static/ 
+│   
+    ├── css/ 
+    │   
+    ├── js/ 
+    │   
+    └── img/ 
+    │       
+        ├── background.jpg 
+        │       
+        ├── preview.png 
+        │       
+        └── preview2.png 
+        │ 
 └── templates/     
     └── index.html 
 
@@ -117,7 +124,7 @@ bash python test_senha.py
 
 ## 👩‍💻 Autora
 
-Desenvolvido por Karinni Oliveira 💜  
+Desenvolvido por Karinni Oliveira  
 Tester Pleno
 
 ---
