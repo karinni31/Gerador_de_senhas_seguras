@@ -48,23 +48,8 @@ Gerar senha
 
 ## 📁 Estrutura do projeto
 
-gerador_senhas/
-│
-├── app.py
-├── requirements.txt
-├── test_senha.py
-│
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── img/
-│       ├── background.jpg
-│       ├── preview.png
-│       └── preview2.png
-│
-└── templates/
-   └── index.html
-   
+<img width="738" height="800" alt="image" src="https://github.com/user-attachments/assets/86fff7d1-8f45-4cf5-9e55-d3dcf8f24658" />
+
 ---
 
 ## ⚙️ Como executar o projeto
