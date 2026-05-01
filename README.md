@@ -9,11 +9,8 @@ License
 Aplicação web desenvolvida em Python para geração de senhas seguras, com interface moderna, interativa e personalizável.
 
 ---
-
-## 📸 Preview da aplicação
-
-<img width="1071" height="721" alt="image" src="https://github.com/user-attachments/assets/508ff180-fb5d-4131-9d52-e9dca23413aa" />
-
+Sobre o Projeto
+Este projeto foi desenvolvido em Python com testes automatizados e uso de IA generativa na criação de testes.
 
 ### 💜 Interface principal
 Tela principal
