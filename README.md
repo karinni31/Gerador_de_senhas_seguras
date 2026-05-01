@@ -49,7 +49,6 @@ Gerar senha
 ## 📁 Estrutura do projeto
 
 gerador_senhas/
-
 │ 
 ├── app.py 
 ├── requirements.txt 
